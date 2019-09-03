@@ -2,7 +2,7 @@
 
 namespace renamegui
 {
-    partial class Form1
+    partial class GUI
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -173,7 +173,7 @@ namespace renamegui
             this.helpBtn.UseVisualStyleBackColor = true;
             this.helpBtn.Click += new System.EventHandler(this.HelpBtn_Click);
             // 
-            // Form1
+            // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,9 +191,9 @@ namespace renamegui
             this.Controls.Add(this.fullSelectcheckBox);
             this.Controls.Add(this.fileList);
             this.Controls.Add(this.chooseDirBtn);
-            this.Name = "Form1";
+            this.Name = "GUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "批量重命名工具";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
